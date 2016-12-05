@@ -1,6 +1,6 @@
 
 # Java-Sockets
-Software per la comunicazione server-client, tramite l'utilizzo di sockets
+Software per la comunicazione server-client, tramite l'utilizzo di sockets 
 ```
 Obitettivo del progetto: inviare linee di testo da un programma (Client)... -->
                          --> ad un altro (Server) anche eventualmente remoto.
