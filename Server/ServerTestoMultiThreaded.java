@@ -10,11 +10,19 @@
  */
 import java.net.*;
 import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class ServerTestoMultiThreaded {
+    
+    public static List<User> Utenti = new ArrayList();
+    
 
     public static void main(String[] args) {
 
+        
+        
         if (args.length != 1) {
             System.out.println("Uso: java ServerTestoMultithreaded <Porta Server>");
             return;
@@ -46,4 +54,6 @@ public class ServerTestoMultiThreaded {
 
         
     }
+
+    
 }
