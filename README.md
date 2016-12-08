@@ -36,8 +36,6 @@ NOTA: posso collegarmi al server con quanti Clients desidero, sia su stesso comp
 
 ### Esempio usando stesso computer sia per eseguire Server che multipli Clients
 
-### Uso comando <!Utenti> per visualizzare la lista dei partecipanti online alla chat di gruppo
-
 Da finestra di comando esguire il Server:
 ```
 cd Documents\NetBeansProjects\Java-Sockets-Server\src
@@ -53,6 +51,9 @@ Da nuova finestra di comando esguire il ```secondo``` Client
 cd Documents\NetBeansProjects\Java-Sockets-Client\src
 java client-Testo localhost 1234
 ```
+
+### Uso comando <!Users> per visualizzare la lista dei partecipanti online alla chat di gruppo
+
 ## Diventa un collaboratore
 Questa e' la lista di nuove funzioni da aggiungere al progetto:
 ```
