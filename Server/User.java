@@ -9,36 +9,36 @@
  * @author Gasperini Luca
  */
 public class User {
-    public String c;
-    public String s;
-    public boolean o;
+    public String i;	//Indirizzo IP
+    public String n;	//Nickname
+    public boolean s;	//Status utente(online, offline)
     
-    public User(String c, String s, boolean o){
-        this.c=c;
-        this.s=s;
-	this.o=o;
+    public User(String i, String n, boolean s){		//Costruttore completo
+        this.i=i;
+        this.n=n;
+	this.s=s;
     }
     
-    public void setAddress(String c){
-    this.c =c;
+    public void setAddress(String i){		//Get e set per le variabili
+    this.i =i;
 }
     public String getAddress(){
-        return c;
+        return i;
     }
     
-    public void setNickname(String s){
-        this.s=s;
+    public void setNickname(String n){
+        this.n=n;
     }
     
     public String getNickname(){
-        return s;
+        return n;
     }
 
     public boolean getStatus(){
-	return o;
+	return s;
 	}
 
 	public void setStatus(boolean o){
-		this.o=o;
+		this.s=s;
 	}
 }

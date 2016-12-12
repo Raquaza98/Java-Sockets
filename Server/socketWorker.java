@@ -47,12 +47,12 @@ class SocketWorker implements Runnable {
             if(firstTime || ServerTestoMultiThreaded.Utenti.isEmpty()){         //client al primo accesso inserito nella lista
                 String ClientAddress = client.getInetAddress().toString();      //registra l'indirizzo del client
                 _lenghtList = ServerTestoMultiThreaded.Utenti.size();
-                System.out.println(_lenghtList);
+                //System.out.println(_lenghtList);
                 int i=0;
                 boolean exists =false;
             if(!ServerTestoMultiThreaded.Utenti.isEmpty()){                     //inserimento client nella lista del server
                 while(_lenghtList < i && exists == false){
-                    System.out.println(i);
+                    //System.out.println(i);
                     if(ServerTestoMultiThreaded.Utenti.get(i).getAddress().equals(ClientAddress)){
                         exists = true;
                         posClient=i;

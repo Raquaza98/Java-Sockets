@@ -1,6 +1,6 @@
 
 # Java-Sockets
-Concetti e realizzazione di una semplice connessione Client/Server usando Sockets in Java
+Software per la comunicazione server-client, tramite l'utilizzo di sockets 
 ```
 Obitettivo del progetto: inviare linee di testo da un programma (Client)... -->
                          --> ad un altro (Server) anche eventualmente remoto.
@@ -35,6 +35,7 @@ dove:
 NOTA: posso collegarmi al server con quanti Clients desidero, sia su stesso computer che da terminali su computer diversi.
 
 ### Esempio usando stesso computer sia per eseguire Server che multipli Clients
+
 Da finestra di comando esguire il Server:
 ```
 cd Documents\NetBeansProjects\Java-Sockets-Server\src
@@ -50,6 +51,9 @@ Da nuova finestra di comando esguire il ```secondo``` Client
 cd Documents\NetBeansProjects\Java-Sockets-Client\src
 java client-Testo localhost 1234
 ```
+
+### Uso comando <!Users> per visualizzare la lista dei partecipanti online alla chat di gruppo
+
 ## Diventa un collaboratore
 Questa e' la lista di nuove funzioni da aggiungere al progetto:
 ```
@@ -70,7 +74,7 @@ Questa e' la lista di nuove funzioni da aggiungere al progetto:
 Mentre le modifiche descritte dai primi due punti risulteranno in una fusione (merge), le modifiche descritti dai punti 3 dovranno far parte di un nuovo progetto che parte da quello originario (fork).
  
 ## Licenza
-opensource nel modo piu' completo del termine :) senza alcuna restrizione!
+opensource nel modo piu' completo del termine :) senza alcuna restrizione! Editabile e riadattabile
 
 ## Ringraziamenti
-a mia moglie che mi ha permesso di trovare il tempo per questo progetto guardando il bambino ;)
+Raquaza98(Gasperini) per lo sviluppo del software e Casetta per il supporto morale/conforto nel momento del bisogno di Raquaza98! 
