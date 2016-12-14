@@ -19,6 +19,25 @@ Scarica i files del progetto cliccando "Clone/Download"
 
 * estrai i files e spostali nella sub-directory "src" dei rispettivi progetti (es. Documents\NetBeansProjects\Java-Sockets-Server\src)
 
+* compila i file scaricati attraverso i seguenti comandi(è richiesto l'inserimento del .exe di java nelle variabili d'ambiente)
+
+Per i file Client:
+
+```
+cd Documents\NetBeansProjects\Java-Sockets-Client\src
+javac listener.java
+javac ClientTesto.java
+```
+
+Per i file Server:
+
+```
+cd Documents\NetBeansProjects\Java-Sockets-Server\src
+javac User.java
+javac socketWorker.java
+javac ServerTestoMultiThreaded.java
+```
+
 ## Uso
 Dal terminale del Server:
 ```
