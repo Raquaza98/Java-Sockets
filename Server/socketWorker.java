@@ -74,8 +74,8 @@ class SocketWorker implements Runnable {
             firstTime=false;
             }
             line = in.readLine();
-
-		if(line.equals("!Users")){
+			if(line!=null){
+			if(line.equals("!Users")){
                     _lenghtList = ServerTestoMultiThreaded.Utenti.size();
 			for(int j=0;j<_lenghtList;j++){
 				if(ServerTestoMultiThreaded.Utenti.get(j).getStatus()) out.println(ServerTestoMultiThreaded.Utenti.get(j).getNickname());
@@ -84,7 +84,8 @@ class SocketWorker implements Runnable {
             //Manda lo stesso messaggio appena ricevuto con in aggiunta il "nome" del client
             out.println("Server---> " + nameClient + ">> " + line);
             //scrivi messaggio ricevuto su terminale
-            System.out.println(nameClient + ": " + line);
+            System.out.println(nameClient + ": " + line);}
+			
            } catch (IOException e) {
             System.out.println("lettura da socket fallito");
             System.exit(-1);
