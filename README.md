@@ -27,7 +27,7 @@ Per i file Client:
 cd Documents\NetBeansProjects\Java-Sockets-Client\src
 javac listener.java
 javac ClientTesto.java
-```
+g```
 
 Per i file Server:
 
@@ -75,4 +75,4 @@ java ClientTesto localhost 1234
 Open Source nel modo piu' completo del termine :) senza alcuna restrizione! Editabile e riadattabile
 
 ## Ringraziamenti
-Raquaza98(Gasperini) per lo sviluppo del software e Casetta per il supporto morale/conforto nel momento del bisogno di Raquaza98! 
+Raquaza98(Gasperini) per lo sviluppo del software e Casetta per il supporto morale/conforto nel momento del bisogno di Raquaza98! Ma è una macchina come fa ad aver bisogno di supporto morale
